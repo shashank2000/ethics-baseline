@@ -1,0 +1,17 @@
+{
+    "exp_base": "/mnt/fs5/shashank2000",
+    "exp_name": "ethics_testing_proj_head",
+    "run_name": "with relu etc 2e-5 lr testing, and minimizing similarity of good and bad TWICE",
+    "downstream_task_config": "lineval.json",
+    "cuda": true,
+    "gpu_device": 0,
+    "seed": 1337,
+    "optim_params": {
+        "batch_size": 32,
+        "learning_rate": 2e-5
+    },
+    "num_epochs": 200,
+    "num_workers": 8,
+    "copy_checkpoint_freq": 5,
+    "continue_from_checkpoint": null
+}

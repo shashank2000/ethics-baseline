@@ -1,0 +1,17 @@
+{
+    "exp_base": "/mnt/fs5/shashank2000",
+    "exp_name": "ethics_testing_lin_eval",
+    "run_name": "fixed up pretrain, 2e-5 lr",
+    "cuda": true,
+    "gpu_device": 0,
+    "seed": 1337,
+    "optim_params": {
+        "batch_size": 16,
+        "learning_rate": 2e-5
+    },
+    "num_epochs": 30,
+    "num_workers": 8,
+    "copy_checkpoint_freq": 5,
+    "continue_from_checkpoint": null,
+    "checkpoint_path": "/mnt/fs5/shashank2000/experiments/ethics_testing/checkpoints/epoch=29.ckpt"
+}

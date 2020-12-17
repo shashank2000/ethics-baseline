@@ -1,0 +1,7 @@
+**/__pycache__/
+project/lightning_logs/
+**/wandb/
+project/wandb/
+env/
+**/mlruns/
+.vscode/
